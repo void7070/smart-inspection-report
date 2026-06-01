@@ -1,0 +1,30 @@
+# dependencies
+node_modules/
+
+# secrets / env
+.env
+.env.local
+*.env
+
+# SQLite (generated via `npm run db:init`)
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# build output
+dist/
+frontend/dist/
+
+# logs
+*.log
+npm-debug.log*
+
+# OMC workspace (session/HUD state, not project source)
+.omc/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
